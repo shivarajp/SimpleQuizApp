@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="horizontal"
+    android:background="@android:color/black"
+    tools:context=".Addquestion">
+
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/quest"
+            android:hint="Enter The Question"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:maxLines="3"
+
+            android:scrollbars="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quest"
+            android:id="@+id/tb1"
+           >
+        <TableRow>
+            <TextView android:text=" A :"
+                      android:id="@+id/optna"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                    />
+            <EditText android:hint="Enter The Option"
+                      android:layout_width="340dp"
+                      android:layout_height="wrap_content"
+                      android:maxLines="1"
+                      android:id="@+id/opta"
+
+                      android:scrollbars="horizontal"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                      />
+        </TableRow>
+        <TableRow>
+            <TextView android:text=" B :"
+                      android:id="@+id/optnb"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                    />
+            <EditText android:hint="Enter The Option"
+                      android:layout_width="340dp"
+                      android:layout_height="wrap_content"
+                      android:maxLines="1"
+                      android:id="@+id/optb"
+                      android:scrollbars="horizontal"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                    />
+        </TableRow>
+        <TableRow>
+            <TextView android:text=" C :"
+                      android:id="@+id/optnc"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                    />
+            <EditText android:hint="Enter The Option"
+                      android:layout_width="340dp"
+                      android:layout_height="wrap_content"
+                      android:maxLines="1"
+                      android:id="@+id/optc"
+                      android:scrollbars="horizontal"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                    />
+        </TableRow>
+        <TableRow>
+            <TextView android:text=" D :"
+                      android:id="@+id/optnd"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                    />
+            <EditText android:hint="Enter The Option"
+                      android:layout_width="340dp"
+                      android:layout_height="wrap_content"
+                      android:maxLines="1"
+                      android:id="@+id/optd"
+                      android:scrollbars="horizontal"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                    />
+        </TableRow>
+
+    </TableLayout>
+<TableLayout android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_below="@+id/tb1"
+             android:id="@+id/tableLayout">
+    <TableRow>
+        <TextView android:text="Correct Option :"
+                  android:id="@+id/optna"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="20dp"
+                  android:textColor="@android:color/white"
+                />
+        <EditText android:hint="A | B | C | D"
+                  android:layout_width="280dp"
+                  android:layout_height="wrap_content"
+                  android:maxLines="1"
+                  android:id="@+id/ans"
+                  android:scrollbars="horizontal"
+                  android:textSize="20dp"
+                  android:inputType="textCapWords"
+                  android:maxLength="1"
+                  android:textColor="@android:color/holo_red_dark"
+                />
+    </TableRow>
+</TableLayout>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btnsub"
+             android:textColor="@android:color/white"
+            android:layout_below="@+id/tableLayout"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="75dp"
+            android:layout_alignParentLeft="true"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/btncan"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_below="@+id/tableLayout"
+            android:layout_toRightOf="@+id/btnsub"/>
+
+</RelativeLayout>

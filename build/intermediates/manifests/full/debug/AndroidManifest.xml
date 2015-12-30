@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.graphsdemos"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.quizappTest.Quiz1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.quizappTest.Addquestion"
+            android:label="@string/title_activity_addquestion" >
+            <intent-filter>
+                <action android:name="com.example.quizappTest.Addquestion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.quizappTest.Removequestion"
+            android:label="@string/title_activity_removequestion" >
+            <intent-filter>
+                <action android:name="com.example.quizappTest.Removequestion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.quizappTest.Quiztest"
+            android:label="@string/title_activity_quiztest" >
+            <intent-filter>
+                <action android:name="com.example.quizappTest.Quiztest" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.quizappTest.Resultdis"
+            android:label="@string/title_activity_resultdis" >
+            <intent-filter>
+                <action android:name="com.example.quizappTest.Resultdis" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+    </application>
+
+</manifest>

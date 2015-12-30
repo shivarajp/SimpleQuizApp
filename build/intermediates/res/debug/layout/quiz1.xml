@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@android:color/black"
+    tools:context=".Quiz1">
+    <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/logo"
+            android:background="@drawable/logo"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="34dp"
+            android:layout_marginLeft="30dp"
+            />
+
+    <Button
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Question"
+            android:id="@+id/addques"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/logo"
+            android:layout_marginTop="54dp"
+            />
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Remove Question"
+            android:id="@+id/remques"
+            android:layout_below="@+id/addques"
+            android:layout_alignLeft="@+id/addques"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="18dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Take A Quiz"
+            android:id="@+id/btnquiz"
+            android:layout_below="@+id/remques"
+            android:layout_alignLeft="@+id/remques"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="18dp"/>
+
+
+</RelativeLayout>
+<!-- From: file:/D:/QuizAppTest/src/main/res/layout/quiz1.xml -->
