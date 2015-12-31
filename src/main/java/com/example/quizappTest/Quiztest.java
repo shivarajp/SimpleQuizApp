@@ -14,8 +14,6 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.graphsdemos.R;
-
 import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;

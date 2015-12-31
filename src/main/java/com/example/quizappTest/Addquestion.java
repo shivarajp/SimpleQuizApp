@@ -10,8 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.graphsdemos.R;
-
 public class Addquestion extends Activity {
 Button submit,cancel;
    EditText ques,opt1,opt2,opt3,opt4,ans;

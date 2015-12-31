@@ -6,14 +6,14 @@
         jumboMode="false"
         revision="22.0.1"
         sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
-        <dex dex="D:\QuizAppTest\build\intermediates\pre-dexed\debug\achartengine-1.1.0-2d92f1f69cae31a9f94b0c7b2d47b63d292ccb05.jar" />
+        <dex dex="D:\QuizAppTest\build\intermediates\pre-dexed\release\achartengine-1.1.0-2d92f1f69cae31a9f94b0c7b2d47b63d292ccb05.jar" />
     </item>
     <item
         jar="D:\QuizAppTest\libs\android-support-v4.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
-        <dex dex="D:\QuizAppTest\build\intermediates\pre-dexed\debug\android-support-v4-6834ca33431ca45447d2ad479ffa96ae8b525f7a.jar" />
+        <dex dex="D:\QuizAppTest\build\intermediates\pre-dexed\release\android-support-v4-6834ca33431ca45447d2ad479ffa96ae8b525f7a.jar" />
     </item>
 
 </items>

@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.graphsdemos.R;
-
 public class MainActivity extends Activity {
     Button bt1,bt2,bt3,bt4;
     @Override

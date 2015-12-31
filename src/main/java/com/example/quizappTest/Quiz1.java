@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.graphsdemos.R;
-
 
 public class Quiz1 extends Activity {
 

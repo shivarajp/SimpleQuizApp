@@ -106,7 +106,7 @@
              android:id="@+id/tableLayout">
     <TableRow>
         <TextView android:text="Correct Option :"
-                  android:id="@+id/optna"
+                  android:id="@+id/optansa"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:textSize="20dp"

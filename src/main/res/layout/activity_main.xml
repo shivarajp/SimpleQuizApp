@@ -13,9 +13,6 @@
             android:layout_height="wrap_content"
             android:text="Bar Graph"
             android:id="@+id/bargraph"
-            android:layout_below="@+id/textView"
-            android:layout_alignLeft="@+id/textView"
-
             android:layout_marginTop="27dp"/>
     <Button
             android:layout_width="fill_parent"

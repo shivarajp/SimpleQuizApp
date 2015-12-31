@@ -8,8 +8,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.graphsdemos.R;
-
 import org.achartengine.GraphicalView;
 
 public class Resultdis extends Activity {
